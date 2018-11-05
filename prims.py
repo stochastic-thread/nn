@@ -1,5 +1,5 @@
 class Neuron:
-    def __init__(self, state=None,prev=None,handler):
+    def __init__(self, state=None,prev=None,handler=None):
         self.state = state
         self.incoming = []
         self.outgoing = []
