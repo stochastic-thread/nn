@@ -6,9 +6,7 @@ def get_sentinel(nd):
 def setup(n):
   nums = dict()
   for i in range(int(n)):
-    if i == 0: nums[i] = False
-    elif i == 1: nums[i] = False
-    else: nums[i] = True
+    nums[i] = False if i in (0, 1) else True
   return nums
 
 def primes(n):
