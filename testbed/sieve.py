@@ -1,8 +1,7 @@
 
 def get_sentinel(nd):
   for a in nd:
-    if nd[a]:
-      return a
+    if nd[a]: return a
   return False
 
 def setup(n):
